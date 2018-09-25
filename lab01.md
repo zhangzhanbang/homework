@@ -51,7 +51,7 @@ example : Unity3D  （Fairies Story in **New Game !**）
 - Data mining
 ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/data-mining.jpg)
 
-> Trying different things helps you experience different kinds of worlds.
+> Trying different things helps you experience different kinds of worlds.</br>
 > You will learn more methods to build your own world and more ways to show your ideas --- to make your world a better place
 
 ### *3. Create a new world*
