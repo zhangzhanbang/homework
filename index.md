@@ -1,16 +1,15 @@
-# 【18342134】的软导作业索引页
+# No.18342134 's index page for SE homework
 
-## 课后作业
-
+## After-class homework
 1. [01-使用维基百科（Wikipedia）解释名词](hw01)
 2. [02-](hw02)
 3. [03-](hw03)
 4. ...
 
 
-## 实验与实践
+## Experiment and practice
 
-1. [01-我的 Markdown 博客](lab01)
+1. [00-Hello Underworld](lab01)
 2. [02-制作 HTML5 游戏](lab02)
 3. [03-我喜欢的...-...](lab03)
 4. [04-我的科普博客](lab04)
@@ -28,7 +27,7 @@
 16. [16-互联网时代的盈利模式](lab16)
 
 
-## Markdown 语法演示
+## Markdown grammar demonstration
 
 ![](images/exclamation.png) 语法 [demo 文档](demo)， [source](https://github.com/sysu-swi/homework/blob/gh-pages/demo.md)
 
