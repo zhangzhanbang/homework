@@ -22,7 +22,7 @@ title: First one
 - Basic language = basic tools
    what we  will learn are probably C/C++ & Python & Java && html
  ![Language](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/language.jpg)
- </br>
+
 
 - Basic algorithm = advanced tools
 1. Your Own ideas and flexible mind
@@ -55,7 +55,7 @@ example : Unity3D  （Fairies Story in **New Game !**）
 > You will learn more methods to build your own world and more ways to show your ideas --- to make your world a better place
 
 ### *3. Create a new world*
-> Now you've learnt all you need, and it's time to create your dream world. </br>
+> Now you've learnt all you need, and it's time to create your dream world. <br/>
 > You may think of rebuilding the net --- decentralized network, just like Richard Hendricks in Silicon Valley Season 5. <br/>
 > Or you have a willing to create a real world in a virtual one, just like the green land in Ready Player One. <br/>
 > Though you have no ideas about the future, I'm convinced that you would meet her one day.
