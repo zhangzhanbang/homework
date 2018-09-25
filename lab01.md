@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 第一次博客
+title: First one
 ---
 
 # Hello Underworld -- Ami Aining
