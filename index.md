@@ -1,11 +1,8 @@
 # No.18342134 's index page for SE homework
 
 ## After-class homework
-1. [01-使用维基百科（Wikipedia）解释名词](hw01)
-2. [02-](hw02)
-3. [03-](hw03)
-4. ...
 
+1. [01-using Wikipedia to explain noun](hw01)
 
 ## Experiment and practice
 
