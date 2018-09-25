@@ -6,11 +6,11 @@ title: First one
 # Hello Underworld -- Ami Aining
 ![day dream life]( https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/day%20dream_.jpg)
 #### a clear sense of life, also a statement of liberty
-> To see the world, </br>
-> things dangerous to come to, </br> 
-> to see behind walls, </br>
-> to draw closer, </br>
-> to find each other and to feel. </br> 
+> To see the world, </br></br>
+> things dangerous to come to, </br></br> 
+> to see behind walls, </br></br>
+> to draw closer, </br></br>
+> to find each other and to feel. </br></br> 
 > That is the purpose of LIFE. 
 
 ## **Three steps to reach one**
