@@ -10,6 +10,7 @@
 ## Experiment and practice
 
 1. [00-Hello Underworld](lab01)
+---
 2. [02-制作 HTML5 游戏](lab02)
 3. [03-我喜欢的...-...](lab03)
 4. [04-我的科普博客](lab04)
@@ -25,6 +26,7 @@
 14. [14-IT风投之我见](lab14)
 15. [15-智能蛇实验报告](lab15)
 16. [16-互联网时代的盈利模式](lab16)
+---
 
 
 ## Markdown grammar demonstration
