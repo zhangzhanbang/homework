@@ -6,11 +6,11 @@ title: 第一次博客
 # Hello Underworld -- Ami Aining
 ![day dream life]( https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/day%20dream_.jpg)
 #### a clear sense of life, also a statement of liberty
-> To see the world,
-> things dangerous to come to, 
-> to see behind walls, 
-> to draw closer, 
-> to find each other and to feel. 
+> To see the world,</br>
+> things dangerous to come to,</br> 
+> to see behind walls, </br>
+> to draw closer, </br>
+> to find each other and to feel.</br> 
 > That is the purpose of LIFE. 
 
 ## **Three steps to reach one**
@@ -55,9 +55,9 @@ example : Unity3D  （Fairies Story in **New Game !**）
 > You will learn more methods to build your own world and more ways to show your ideas --- to make your world a better place
 
 ### *3. Create a new world*
-> Now you've learnt all you need, and it's time to create your dream world.
-> You may think of rebuilding the net --- decentralized network, just like Richard Hendricks in Silicon Valley Season 5.
-> Or you have a willing to create a real world in a virtual one, just like the green land in Ready Player One.
+> Now you've learnt all you need, and it's time to create your dream world.</br>
+> You may think of rebuilding the net --- decentralized network, just like Richard Hendricks in Silicon Valley Season 5.</br>
+> Or you have a willing to create a real world in a virtual one, just like the green land in Ready Player One.</br>
 > Though you have no ideas about the future, I'm convinced that you would meet her one day.
 
 ## ***In the end, let us cheer for the bright future!***
