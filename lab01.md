@@ -5,7 +5,7 @@ title: 第一次博客
 
 # Hello Underworld -- Ami Aining
 ![day dream life]( https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/day%20dream_.jpg)
-#### a clear sense of lif, also a statement of liberty
+#### a clear sense of life, also a statement of liberty
 > To see the world,
 > things dangerous to come to, 
 > to see behind walls, 
