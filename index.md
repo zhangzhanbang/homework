@@ -4,7 +4,7 @@
 
 1. [01-using Wikipedia to explain noun](hw01)
 2. [02-Binary conversion and explain noun](hw02)
-3. [Data Representation I](hw03)
+3. [03-Data Representation I](hw03)
 
 ## Experiment and practice
 
