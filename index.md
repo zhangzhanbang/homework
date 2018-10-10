@@ -3,6 +3,7 @@
 ## After-class homework
 
 1. [01-using Wikipedia to explain noun](hw01)
+2. [02-Binary conversion and explain noun](hw02)
 
 ## Experiment and practice
 
