@@ -4,6 +4,7 @@
 
 1. [01-using Wikipedia to explain noun](hw01)
 2. [02-Binary conversion and explain noun](hw02)
+3. [Data Representation I](hw03)
 
 ## Experiment and practice
 
@@ -14,5 +15,3 @@
 
 ![](images/exclamation.png) grammar [demo document](demo)， [source](https://github.com/sysu-swi/homework/blob/gh-pages/demo.md)
 
-
-### why doesn't change
