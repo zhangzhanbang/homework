@@ -11,7 +11,8 @@
 ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/construct%202.png)
 ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/cs2-01.png)
 
-**  无敌模式+自动索引的子弹 **
+**无敌模式+自动索引的子弹**
+
 ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/aaa.gif)
 
 Construct 2优点：简单易用，让不会编程的新手也能轻松掌握
