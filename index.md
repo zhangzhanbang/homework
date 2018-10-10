@@ -9,6 +9,7 @@
 ## Experiment and practice
 
 1. [00-Hello Underworld](lab01)
+2. [01-Beginner's HTML5 Game Technology Blog]
 
 
 ## Markdown grammar demonstration
