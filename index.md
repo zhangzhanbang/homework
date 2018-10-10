@@ -8,8 +8,9 @@
 
 ## Experiment and practice
 
-0. [00-Hello Underworld](lab01)
-1. [01-Beginner's HTML5 Game Technology Blog](lab02)
+0. [1-1 Hello Underworld](lab01)
+1. [1-2 Beginner's HTML5 Game Technology Blog](lab02)
+2. [1-3 ](lab03)
 
 
 ## Markdown grammar demonstration
