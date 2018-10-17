@@ -38,22 +38,22 @@
 
 - 既然已经了解声音转换原理，下面就介绍一下常见的音频格式。
 
-1. WAV格式。WAV是微软公司开发的一种声音文件格式，也叫波形声音文件，是最早的数字音频格式，被Windows平台及其应用程序广泛支持，压缩率低。
+1、 WAV格式。WAV是微软公司开发的一种声音文件格式，也叫波形声音文件，是最早的数字音频格式，被Windows平台及其应用程序广泛支持，压缩率低。
 
 ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/lab04/wav.png ) 
 
-2. MP3格式。MP3全称是MPEG-1 Audio Layer 3，它在1992年合并至MPEG规范中。MP3能够以高音质、低采样率对数字音频文件进行压缩。应用最普遍。
+2、MP3格式。MP3全称是MPEG-1 Audio Layer 3，它在1992年合并至MPEG规范中。MP3能够以高音质、低采样率对数字音频文件进行压缩。应用最普遍。
 
  ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/lab04/MP3.jpg) 
 
-3. APE格式。APE是一种无损压缩音频格式,在音质不降低的前提下，大小压缩到传统无损格式 WAV 文件的一半
+3、 APE格式。APE是一种无损压缩音频格式,在音质不降低的前提下，大小压缩到传统无损格式 WAV 文件的一半
 
  ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/lab04/APE.jpg) 
 
-4. FLAC格式。FLAC即是Free Lossless Audio Codec的缩写，是一套著名的自由音频无损压缩编码，其特点是无损压缩。
+4、 FLAC格式。FLAC即是Free Lossless Audio Codec的缩写，是一套著名的自由音频无损压缩编码，其特点是无损压缩。
 
 ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/lab04/flac.jpg) 
 
-5. AAC格式。AAC实际上是高级音频编码的缩写。AAC是由Fraunhofer IIS-A、杜比和AT&T共同开发的一种音频格式，它是MPEG-2规范的一部分。AAC所采用的运算法则与MP3的运算法则有所不同，AAC通过结合其他的功能 来提高编码效率。AAC的音频算法在压缩能力上远远超过了以前的一些压缩算法（比如MP3等）。它还同时支持多达48个音轨、15个低频音轨、更多种采样率和比特率、多种语言的兼容能力、更高的解码效率。总之，AAC可以在比MP3文件缩小30%的前提下提供更好的音质。
+5、 AAC格式。AAC实际上是高级音频编码的缩写。AAC是由Fraunhofer IIS-A、杜比和AT&T共同开发的一种音频格式，它是MPEG-2规范的一部分。AAC所采用的运算法则与MP3的运算法则有所不同，AAC通过结合其他的功能 来提高编码效率。AAC的音频算法在压缩能力上远远超过了以前的一些压缩算法（比如MP3等）。它还同时支持多达48个音轨、15个低频音轨、更多种采样率和比特率、多种语言的兼容能力、更高的解码效率。总之，AAC可以在比MP3文件缩小30%的前提下提供更好的音质。
 
   ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/lab04/aac.png) 
