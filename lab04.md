@@ -4,7 +4,7 @@
 
 ## Audio Coding
 
-<center> ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/lab04/audio%20coding.jpg) </center >
+ ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/lab04/audio%20coding.jpg) 
 
 - 计算机之所以能构造出一个近乎于真实的世界，源于它复制了人类的两大感觉：视觉与听觉，其对应的是图像与声音，但这项工作可不是那么容易。计算机让人们更容易享受到音乐，沉浸其中，又曾想过它是怎么通过各种转换，到了你的耳边，变成一个个美妙的音符呢？下面让我们一起来探讨吧！
 
