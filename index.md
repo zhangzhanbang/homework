@@ -12,7 +12,7 @@
 0. [1-1 Hello Underworld](lab01)
 1. [1-2 Beginner's HTML5 Game Technology Blog](lab02)
 2. [1-3 ](lab03)
-
+3. [1-4 Audio Coding](lab04)
 
 ## Markdown grammar demonstration
 
