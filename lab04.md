@@ -2,7 +2,7 @@
   title: Audio Coding
 ---
 
-##Audio Coding
+## Audio Coding
 
 <center> ![](https://raw.githubusercontent.com/zhangzhanbang/homework/gh-pages/images/lab04/audio%20coding.jpg) </center >
 
