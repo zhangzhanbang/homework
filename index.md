@@ -7,6 +7,7 @@
 3. [03-Data Representation I](hw03)
 4. [04-Data Representation II](hw04)
 5. [05-Gates and Circuits](hw05)
+6. [06-Computing Components](hw06)
 
 ## Experiment and practice
 
