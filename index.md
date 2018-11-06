@@ -8,6 +8,7 @@
 4. [04-Data Representation II](hw04)
 5. [05-Gates and Circuits](hw05)
 6. [06-Computing Components](hw06)
+7. [07-Programming on Bare Machine](hw07)
 
 ## Experiment and practice
 
