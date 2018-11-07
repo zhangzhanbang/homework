@@ -55,7 +55,7 @@
 - ALU 算术逻辑单元，实现计算
 - ACC 存储计算结果的存储器
 
-<h4 id = "5" > Program 1:  Add 2 numbers（简单程序）<h4>
+<h3 id = "5" > Program 1:  Add 2 numbers（简单程序）<h3>
 
 1. 根据表格把指令填进模拟器
 
@@ -120,7 +120,7 @@
 
 - - - 
 
-<h4 id = "6"> Program 2:  Count down loop（简单循环）<h4>
+<h3 id = "6"> Program 2:  Count down loop（简单循环）<h3>
 
 ##### 根据表格把指令填进模拟器
 
