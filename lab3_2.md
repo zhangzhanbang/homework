@@ -7,24 +7,30 @@
 #### 实验名称： 硬件编程与机器指令编程学习
 #### 张展邦 18342134
 
-[TOC]
+## 索引 ##
+* [一、实验目的](#1)
+* [二、实验工具](#2)
+* [三、实验过程](#3)
+	* [前置知识](#4) 
+	* [Program 1 简单程序](#5)
+	* [program 2 简单循环](#6)
 
-#### 一、实验目的
+<h3 id="1"> 一、实验目的 </h3>
 
 - 理解冯·诺伊曼计算机的结构
 - 理解机器指令的构成
 - 理解机器指令执行周期
 - 用汇编编写简单程序
 
-#### 二、实验工具
+<h3 id="2"> 二、实验工具 </h3>
 
 - 简单 CPU 仿真工具 [Pippin CPUSim](http://www.science.smith.edu/~jcardell/Courses/CSC103/CPUsim/cpusim.html)
 - 由于这个网页实在太老，需要设置兼容性视图以及安装环境[点这里](https://ks0508.github.io/SE-project/QA1/jre.zip)
 - 最后感谢一波老学委的辛勤付出
 
-#### 三、实验过程
+<h3 id="3"> 三、实验过程 </h3>
 
-#### 前置知识
+<h4 id="4"> 前置知识 </h4>
 
 ##### 做实验之前要先学一些指令（PIPPIN Instruction Set）
 
@@ -49,7 +55,7 @@
 - ALU 算术逻辑单元，实现计算
 - ACC 存储计算结果的存储器
 
-##### Program 1:  Add 2 numbers（简单程序）
+<h4 id = "5" > Program 1:  Add 2 numbers（简单程序）<h4>
 
 1. 根据表格把指令填进模拟器
 
@@ -105,11 +111,14 @@
 - 8位
 
 ##### 4）写出该程序对应的 C语言表达。
+
 	int_8 w = 3;
 	int_8 x = 7;
 	int_8 y = 7+w;
 
-##### Program 2:  Count down loop（简单循环）
+- - - 
+
+<h4 id = "6"> Program 2:  Count down loop（简单循环）<h4>
 
 ##### 根据表格把指令填进模拟器
 
@@ -139,7 +148,6 @@
 		x --;
 		if (x == 0) break ;
 	}
-	
 ##### 机器语言的计算过程
 
 - ![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/machine%20code/program2/p2-2.png)
