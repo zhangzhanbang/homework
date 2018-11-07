@@ -130,17 +130,20 @@
 
 ##### 对应的c语言程序
 
+```c
 	int_8 x = 3;
 	while (1)
 	{
 		x --;
 		if (x == 0) break ;
 	}
+```
 	
 ##### 修改程序，用机器语言实现 10+9+8+..1 ，输出结果存放于内存 Y
 
 ##### C语言计算过程
 
+```c
 	int_8 x = 10, y = 0;
 	while (1)
 	{
@@ -148,6 +151,8 @@
 		x --;
 		if (x == 0) break ;
 	}
+```
+
 ##### 机器语言的计算过程
 
 - ![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/machine%20code/program2/p2-2.png)
