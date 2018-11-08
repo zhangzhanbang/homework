@@ -62,13 +62,3 @@ example : Unity3D  （Fairies Story in **New Game !**）
 > Though you have no ideas about the future, I'm convinced that you would meet her one day.
 
 ## ***In the end, let us cheer for the bright future!***
-
-#### 如何做到**自顶向下，逐步求精**
-
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
