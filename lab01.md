@@ -1,6 +1,7 @@
 ---
 layout: default
 title: First one
+mermaid: true
 ---
 
 # Hello Underworld -- Ami Aining
@@ -64,11 +65,8 @@ example : Unity3D  （Fairies Story in **New Game !**）
 
 #### 如何做到**自顶向下，逐步求精**
 
-```flow
-st=>start: SYSTEM
-e=>end: SOLVE
-sub_system=>subroutine: SUB_SYSTEM
-basis=>operation: BASE_ELEMENTS
-rebuild=>subroutine: REBUILD
-st->sub_system->basis->e->rebuild(left)->sub_system
-```
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
