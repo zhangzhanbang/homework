@@ -9,6 +9,8 @@
 5. [05-Gates and Circuits](hw05)
 6. [06-Computing Components](hw06)
 7. [07-Programming on Bare Machine](hw07)
+8. [08-Problem Solving and Algorithm Design](hw08)
+
 
 ## Experiment and practice
 
