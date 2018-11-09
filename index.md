@@ -19,6 +19,7 @@
 2. [1-3 Film sharing——the social network](lab03)
 3. [1-4 Audio Coding](lab04)
 3. [3-2 Machine language programming](lab3_2)
+4. [1-8 Top-down design](lab1-8)
 
 ## Markdown grammar demonstration
 
