@@ -6,20 +6,20 @@ title : 自上而下，逐步求精
 
 #### 概念——自上而下的设计（逐步设计）
 
-<center>  ![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab1-8/module%20program.png) </center>
+![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab1-8/module%20program.png)
 
 - **自上而下**的设计是将系统分解成一个个小块，把**复杂抽象**的系统分解成**简单特定**的模块。
 - 在**自上而下**的设计中，系统的整体概念被设计出，并指出下一层的子系统但不详细说明。然后，每个子系统都会进行更为细化的说明，例如，有时会分解为不同层级的子系统，以便让子系统分解成**基础元素**。
 
-<center> ![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab1-8/top-down%20figure%201.gif) </center>
-
+![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab1-8/top-down%20figure%201.gif)
+	
 - 只要区分出所有基础元素，就可以像计算**模块**一样构建出。一旦构建出模块，就可以毫不费力地把它们组合在一起，由这些模块构建整个系统。
 - 自上而下的设计通常是一个用**通俗语言**做出的计划，因为这是一种整体的把握。
 - 另外，每个模块下所包含的子任务数一般比较少，在4-7个左右。任务划分的实质是问题规模缩减，更有助于开发人员完成简单部分。**任务划分要足够细，使得编码人员能使用计算机代码实现问题的每个部分**。
 
 #### 如何做到**自顶向下，逐步求精**
 
-<center> ![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab1-8/chart.png) </center>
+![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab1-8/chart.png)
 
 #### 以观察的洗衣机为案例，用伪代码描述的控制程序设计
 
