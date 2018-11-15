@@ -4,8 +4,6 @@ title : Python 交互式编程
 
 ---
 
-![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab4/lab4.png)
-
 ## Python交互式编程——实验报告
 
 #### 实验名称： 用Python做计算器，做数学题
