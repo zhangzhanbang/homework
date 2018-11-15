@@ -19,9 +19,9 @@
 1. [1-2 Beginner's HTML5 Game Technology Blog](lab02)
 2. [1-3 Film sharing——the social network](lab03)
 3. [1-4 Audio Coding](lab04)
-3. [3-2 Machine language programming](lab3_2)
-4. [1-8 Top-down design](lab1-8)
-5. [4 Python Interactive Programming](lab4)
+4. [3-2 Machine language programming](lab3_2)
+5. [1-8 Top-down design](lab1-8)
+6. [4 Python Interactive Programming](lab4)
 
 ## Markdown grammar demonstration
 
