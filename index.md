@@ -21,6 +21,7 @@
 3. [1-4 Audio Coding](lab04)
 4. [3-2 Machine language programming](lab3_2)
 5. [1-8 Top-down design](lab1-8)
+6. [4 Python Interactive Programming](lab_4.md)
 
 ## Markdown grammar demonstration
 
