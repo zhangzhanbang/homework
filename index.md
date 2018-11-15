@@ -23,6 +23,8 @@
 5. [1-8 Top-down design](lab1-8)
 6. [4 Python Interactive Programming](lab_4.md)
 
+lalal
+
 ## Markdown grammar demonstration
 
 ![](images/exclamation.png) grammar [demo document](demo)， [source](https://github.com/sysu-swi/homework/blob/gh-pages/demo.md)
