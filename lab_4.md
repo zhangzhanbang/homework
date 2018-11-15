@@ -106,7 +106,7 @@ Python里用专门用于数学计算的库math
 - math.exp(x) = $ e^x $
 - math.pow(x,y) = $ x^y $ //开根号时y为分数
 - math.gcd(x,y) = $ (x,y) $ //x,y的最大公因数
-- math.log(x, [base=math.e]) = $ log _(base) x $ //不打系统默认base = math.e
+- math.log(x, [base=math.e]) = $ log _{base} x $ //不打系统默认base = math.e
 - 三角函数类的使用与实际无异，只需前面加'math.'
 
 
