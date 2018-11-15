@@ -1,5 +1,7 @@
 ---
-title:Python 交互式编程
+
+title : Python 交互式编程
+
 ---
 
 ## Python交互式编程——实验报告
