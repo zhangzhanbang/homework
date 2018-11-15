@@ -23,7 +23,7 @@
 5. [1-8 Top-down design](lab1-8)
 6. [4 Python Interactive Programming](lab_4.md)
 
-lalal
+
 
 ## Markdown grammar demonstration
 
