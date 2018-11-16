@@ -21,6 +21,8 @@ title : Python 交互式编程
   * [4.2线性代数](#4_2)
 * [五、实验总结](#5)
 
+---
+
 ![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab4/python.png)
 
 ---
