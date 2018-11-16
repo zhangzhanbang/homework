@@ -10,6 +10,12 @@ title : Python 交互式编程
 #### 姓名： 张展邦
 #### 学号：18342134
 
+---
+
+![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab4/python.png)
+
+---
+
 ## 索引 ##
 * [一、实验目的](#1)
 * [二、实验环境](#2)
@@ -23,9 +29,6 @@ title : Python 交互式编程
 
 ---
 
-![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab4/python.png)
-
----
 
 <h3 id="1"> 一、实验目的 </h3>
 
