@@ -23,7 +23,7 @@ title : Python 交互式编程
 
 ![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab4/python.png)
 
-
+---
 
 <h3 id="1"> 一、实验目的 </h3>
 
@@ -44,7 +44,7 @@ title : Python 交互式编程
 
 <h3 id="3"> 三、实验——使用 python 作为计算器 </h3>
 
-<h4 id="3_1"> 3.1 使用简单表达式** </h4>
+<h4 id="3_1"> 3.1 使用简单表达式 </h4>
 
 - 基本的四则运算都可以直接计算出
 - 另：**变量万能**
