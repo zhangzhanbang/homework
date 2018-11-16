@@ -12,11 +12,10 @@ title : Python 交互式编程
 
 ## Python交互式编程——实验报告
 
-**实验名称： 用Python做计算器，做数学题**
-**姓名： 张展邦**
-**学号：18342134**
+#### 实验名称： 用Python做计算器，做数学题
+#### 姓名： 张展邦
+#### 学号：18342134
 
-[TOC]
 
 ![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab4/python.png)
 
