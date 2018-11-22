@@ -23,6 +23,7 @@
 4. [3-2 Machine language programming](lab3_2)
 5. [1-8 Top-down design](lab1-8)
 6. [4 Python Interactive Programming](lab_4.md)
+7. [2-2 Make a html5 game](lab2-2)
 
 
 
