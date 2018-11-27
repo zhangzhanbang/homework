@@ -16,7 +16,7 @@
 >
 > 这些历史性的转折都在诠释着一件事：无人驾驶正在从实验室走向商业产品化的现实，无人驾驶的未来不再遥远。
 
-![p1](C:\Users\zhang\Desktop\image\project 1-9\p2.jpg)
+![p1](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/p2.jpg)
 
 ​																	*谷歌无人驾驶汽车*
 
