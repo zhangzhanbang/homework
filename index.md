@@ -25,6 +25,7 @@
 6. [4 Python Interactive Programming](lab_4.md)
 7. [2-2 Make a HTML5 game](lab2-2)
 8. [1-9 ELSI of automated vehicles](lab1-9)
+9. [1-9_EXTRA sort algorithm](lab1-9_ex)
 
 
 
