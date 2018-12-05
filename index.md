@@ -27,6 +27,7 @@
 8. [1-9 ELSI of automated vehicles](lab1-9)
 9. [1-9_EXTRA sort algorithm](lab1-9ex)
 10. [1-10 The Venture Capital of IT](lab1-10)
+11. [5-1 The code of gluttonous snake](lab5-1)
 
 
 
