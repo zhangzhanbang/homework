@@ -1,0 +1,223 @@
+---
+  title:Innovative Snake Game
+---
+
+### 贪吃蛇游戏设计及算法、或创新玩法
+
+### 1、贪吃蛇游戏设计及算法
+
+#### 游戏元素
+
+- 墙壁——‘#’
+- 空地——‘ ’
+- 蛇头——‘H'
+- 蛇身——'X'
+- 蛇尾——’T'
+- 食物——'$'
+
+#### 游戏过程
+
+**规则简述**
+
+> 玩家通过WASD操控蛇头，蛇头每吃到一个食物，身子就会长一节，吃尽量多的食物。
+>
+> 若蛇头吃到蛇身，则游戏结束
+
+**实现对蛇的操控**
+
+> 蛇身，每一节的位置变成它前一节的位置。
+>
+> 蛇头，移向操作后对应的位置。
+>
+> 若吃到食物，则新增一节，位置与原最后一节相同
+
+**实现随机生成食物**
+
+> 利用库time.h，在程序开始时设置随机种子srand(NULL)，rand()即可得到随机数
+>
+> 对随机数取模，即可得到某一范围内的随机数，进而得到某个位置，随机直到某个位置为空地
+>
+> **随机时间会不稳定**，因此，第二种方法是把所有空地的位置取出来，再按照下标random
+
+**游戏结束的判定**
+
+> 1、出边界
+>
+> 2、撞到蛇自己
+
+#### 代码实现
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <unistd.h>
+
+#define HEAD 'H'
+#define BODY 'X'
+#define BLANK ' '
+#define FOOD '$'
+#define WALL '*'
+
+#define REP(i, a, b) for (i = (a); i <= (b); ++i)
+#define DWN(i, a, b) for (i = (a); i >= (b); --i)
+
+const int N = 12; // 图边长 
+const int MAX_LEN = 20; // 蛇最大总长 
+
+char map[13][13]; // 图 
+int dx[5] = {0, 0, 0, -1, 1}; 
+int dy[5] = {0, -1, 1, 0, 0}; // 分别表示A，D，W，S 
+int x_snake[22], y_snake[22]; // 蛇每个部分的位置 
+int len_snake; //当前蛇长 
+
+void pre_build(); // 预建 
+
+void snake_Move(int move_typ); // move_typ ：移动类型 
+void creat_new_food(); // 随机产生新食物 
+void show(); // 打印图 
+void gameover(); // 打印游戏结束 
+int gameover_check(); //判断游戏是否结束 
+
+int main()
+{
+	srand(time(NULL)); //设置初始随机种子 
+    pre_build();
+    show();
+    while (!gameover_check()) //游戏是否继续进行 
+    {
+        char ch = getchar(); // 读入命令 
+        switch (ch)
+        {
+	        case 'A': snake_Move(1); break ;
+   	    	case 'D': snake_Move(2); break ;
+        	case 'W': snake_Move(3); break ;
+        	case 'S': snake_Move(4); break ;
+        }
+        system("cls"); // 清屏 
+        show();
+    }
+	gameover(); //游戏结束 
+    return 0;
+}
+
+void pre_build()
+{
+	int i; 
+    REP(i, 1, N) 
+        map[1][i] = map[N][i] = WALL,
+        map[i][1] = map[i][N] = WALL,
+        map[i][N+1] = '\n';
+    //设置初始图 
+        
+    len_snake = 5; 
+    REP(i, 1, len_snake) 
+        x_snake[i] = 2,
+        y_snake[i] = 6-i+1,
+    //设置初始蛇的位置 
+    
+    map[x_snake[1]][y_snake[1]] = HEAD;
+    REP(i, 2, len_snake)
+        map[x_snake[i]][y_snake[i]] = BODY;
+    //在图上把蛇显示出来 
+    
+	map[5][5] = FOOD;
+    //设置初始食物阵 
+}
+
+void show() // 打印当前图 
+{
+	int i, j; 
+    REP(i, 1, N)
+        REP(j, 1, N+1)
+            printf("%c", map[i][j]);
+}
+
+void creat_new_food()
+{
+	int tx, ty;
+	do
+	{
+		tx = rand()%10+1;
+		ty = rand()%10+1;
+	}while(map[tx+1][ty+1] != BLANK); // 保证把食物生成在空处 
+	map[tx+1][ty+1] = FOOD;
+}
+
+void snake_Move(int move_typ) 
+{
+	int i;
+	int t_x = x_snake[1] + dx[move_typ];
+	int t_y = y_snake[1] + dy[move_typ];
+	//t_x和t_y：蛇头移动后的位置 
+	
+	// 更新蛇的图上信息 
+	if (map[t_x][t_y] != FOOD && len_snake < MAX_LEN) 
+		map[x_snake[len_snake]][y_snake[len_snake]] = BLANK; // 蛇尾设为空 
+	map[x_snake[1]][y_snake[1]] = BODY; //蛇头变成蛇身 
+	if (map[t_x][t_y] == FOOD && len_snake < MAX_LEN) //头吃到食物，蛇长一节 
+	{
+		len_snake ++; //蛇变长 
+		creat_new_food(); //生成新的食物 
+	}
+	map[t_x][t_y] = HEAD; // 设置新蛇头 
+	
+	    
+    // 更新蛇的位置信息 
+    DWN(i, len_snake, 2) //蛇身的位置等于它前一部分的位置 
+    {
+        x_snake[i] = x_snake[i-1];
+        y_snake[i] = y_snake[i-1];
+    }
+    x_snake[1] += dx[move_typ];
+    y_snake[1] += dy[move_typ];
+}
+
+int gameover_check() // 检查当前游戏状态 
+{
+	int i, j;
+    REP(i, 2, len_snake)
+        REP(j, 1, i-1)
+            if (x_snake[i] == x_snake[j]
+             && y_snake[i] == y_snake[j]) // 头撞到身体 
+                return 1;
+	REP(i, 1, len_snake)
+		if (x_snake[i] <= 1 || y_snake[i] <= 1
+		 || x_snake[i] >= 12  || y_snake[i] >= 12) //头撞到边界 
+			return 1;
+    return 0;
+}
+
+void gameover() //游戏结束 
+{ 
+    system("cls");
+    puts("Game Over!!!!"); 
+}
+
+```
+
+### 2、创新玩法——多人竞技贪吃蛇
+
+**元素**
+
+- 蛇——每个玩家控制一条
+- 绿色果实——吃了它的蛇长度+1
+- 蓝色果实——吃了它的蛇加速能量储备+1
+- 红色果实——碰到之后产生爆炸圈，身处爆炸圈的蛇长度减半
+
+**规则**
+
+> 初始时，每个玩家会控制一条蛇，在同一个地图内。
+>
+> 在一个时限内，控制的蛇最长的玩家获胜。
+
+**难度递增**
+
+在每个时段蛇都有一个基础的速度
+
+随着时段的变换，蛇的基础速度也会呈现阶梯式提升
+
+**腾讯手游——疯狂贪吃蛇**
+
+![](https://github.com/zhangzhanbang/homework/raw/gh-pages/images/lab5-2/0.jpg)
