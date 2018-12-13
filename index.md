@@ -28,6 +28,7 @@
 9. [1-9_EXTRA sort algorithm](lab1-9ex)
 10. [1-10 The Venture Capital of IT](lab1-10)
 11. [5-1 The code of gluttonous snake](lab5-1)
+12. [5-2 The experiment of AI snake](lab5-2)
 
 
 
