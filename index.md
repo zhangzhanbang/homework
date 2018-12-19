@@ -30,6 +30,7 @@
 11. [5-1 The code of gluttonous snake](lab5-1)
 12. [5-2 The experiment of AI snake](lab5-2)
 13. [1-11 Innovative Snake Game](lab1-11)
+14. [2-11 The profit model of Internet enterprise](lab2-11)
 
 
 
